@@ -18,7 +18,7 @@
 
 // DFS without recursion, but why slow than recursion
 // 手动堆栈比系统堆栈慢，所以迭代的递归优于手动堆栈
-const exist = function(board, word) {
+var exist = function(board, word) {
     const stack = []
 
     const M = board.length
@@ -88,3 +88,44 @@ const exist = function(board, word) {
 
     return start && k === word.length
 };
+
+// DFS with recursion
+var exist = function(board, word) {
+    const m = board.length
+    const n = board[0].length
+    const used = '#'
+
+    const dfs = (i, j, board, word) => {
+        if (i < 0 || i >= m || j < 0 || j >=n || board[i][j] !== word[0]) return false
+
+        // means board[i, j] === word[0]
+        board[i][j] = used
+        const nextWord = word.slice(1)
+        // only 1 word
+        if (nextWord === '') return true 
+
+        // left
+        if (dfs(i - 1, j, board, nextWord)) return true
+
+        // bottom
+        if (dfs(i, j + 1, board, nextWord)) return true
+
+        // right
+        if (dfs(i + 1, j, board, nextWord)) return true
+
+        // top
+        if (dfs(i, j - 1, board, nextWord)) return true
+
+        // back
+        board[i][j] = word[0]
+        return false
+    }
+
+    for(let i = 0; i < m; i++) {
+        for(let j = 0; j < n; j++) {
+            if (dfs(i, j, board, word)) return true
+        }
+    }
+
+    return false
+}
