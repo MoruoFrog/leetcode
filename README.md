@@ -9,3 +9,5 @@
 |064|[Minimum Path Sum](https://github.com/MoruoFrog/leetcode/blob/master/64__MinimumPathSum.js)|dp,未最优| Medium |
 |065|[Plus One](https://github.com/MoruoFrog/leetcode/blob/master/65__PlusOne.js)| | Easy |
 |073|[Set Matrix Zeroes](https://github.com/MoruoFrog/leetcode/blob/master/73__SetMatrixZeroes.js)| | Medium |
+|04|[Median Of TwoSorted Arrays](https://github.com/MoruoFrog/leetcode/blob/master/4__MedianOfTwoSortedArrays.js)| 未最优 | Hard |
+|05|[Longest Palindromic Substring](https://github.com/MoruoFrog/leetcode/blob/master/5__LongestPalindromicSubstring.js)| 未最优 | Medium |
