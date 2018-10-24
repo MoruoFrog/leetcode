@@ -11,3 +11,4 @@
 |073|[Set Matrix Zeroes](https://github.com/MoruoFrog/leetcode/blob/master/73__SetMatrixZeroes.js)| | Medium |
 |04|[Median Of TwoSorted Arrays](https://github.com/MoruoFrog/leetcode/blob/master/4__MedianOfTwoSortedArrays.js)| 未最优 | Hard |
 |05|[Longest Palindromic Substring](https://github.com/MoruoFrog/leetcode/blob/master/5__LongestPalindromicSubstring.js)| 未最优 | Medium |
+|03|[Longest Substring Without Repeating Characters](https://github.com/MoruoFrog/leetcode/blob/master/3__LongestSubstringWithoutRepeatingCharacters.js)| dp | Medium |
