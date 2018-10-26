@@ -1,7 +1,7 @@
 # leetcode javascript solution
 
 | # | Title | Remark | Difficulty | |
-|:--:|:--:|:--:|:--:|
+|:--:|:--:|:--:|:--:|:--:|
 |018|[4Sum](https://github.com/MoruoFrog/leetcode/blob/master/018__4Sum.js)|  | Medium |
 |041|[First Missing Positive](https://github.com/MoruoFrog/leetcode/blob/master/041__FirstMissingPositive.js)| Hard | bitMap_like | :heart: |
 |055|[Jump Game](https://github.com/MoruoFrog/leetcode/blob/master/055__JumpGame.js)| Medium |
