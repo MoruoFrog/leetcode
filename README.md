@@ -3,7 +3,7 @@
 | # | Title | Remark | Difficulty | |
 |:--:|:--:|:--:|:--:|:--:|
 |018|[4Sum](https://github.com/MoruoFrog/leetcode/blob/master/018__4Sum.js)|  | Medium |
-|041|[First Missing Positive](https://github.com/MoruoFrog/leetcode/blob/master/041__FirstMissingPositive.js)| Hard | bitMap_like | :heart: |
+|041|[First Missing Positive](https://github.com/MoruoFrog/leetcode/blob/master/041__FirstMissingPositive.js)| bitMap_like | Hard | :heart: |
 |055|[Jump Game](https://github.com/MoruoFrog/leetcode/blob/master/055__JumpGame.js)| Medium |
 |045|[Jump Game II](https://github.com/MoruoFrog/leetcode/blob/master/045__JumpGame2.js)| 贪心| Hard | :heart: |
 |064|[Minimum Path Sum](https://github.com/MoruoFrog/leetcode/blob/master/064__MinimumPathSum.js)|dp| Medium | :heart: :pushpin:|
