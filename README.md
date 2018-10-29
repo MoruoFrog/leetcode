@@ -13,3 +13,4 @@
 |005|[Longest Palindromic Substring](https://github.com/MoruoFrog/leetcode/blob/master/05__LongestPalindromicSubstring.js)| 未最优 | Medium |:heart: :pushpin: |
 |003|[Longest Substring Without Repeating Characters](https://github.com/MoruoFrog/leetcode/blob/master/03__LongestSubstringWithoutRepeatingCharacters.js)| dp | Medium | :heart: |
 |006|[ZigZag Conversion](https://github.com/MoruoFrog/leetcode/blob/master/006__ZigZagConversion.js)|  | Medium | :-1: |
+|062|[Unique Paths](https://github.com/MoruoFrog/leetcode/blob/master/062__UniquePaths.js)| dp/math | Medium | :heart: |
