@@ -22,7 +22,7 @@ var uniquePaths = function(m, n) {
     return dp(m - 1, n - 1)
 };
 
-// iterate, S(m), O(m * n)
+// iterate, S(n), O(m * n), matain top and left
 var uniquePaths = function(m, n) {
     if(m === 0 || n === 0) return 0
     if(m === 1 || n === 1) return 1
