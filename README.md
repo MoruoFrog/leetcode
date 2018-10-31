@@ -15,3 +15,5 @@
 |006|[ZigZag Conversion](https://github.com/MoruoFrog/leetcode/blob/master/006__ZigZagConversion.js)|  | Medium | :-1: |
 |062|[Unique Paths](https://github.com/MoruoFrog/leetcode/blob/master/062__UniquePaths.js)| dp/math | Medium | :heart: |
 |063|[Unique Paths II](https://github.com/MoruoFrog/leetcode/blob/master/063__UniquePathsII.js)| dp | Medium |  |
+|079|[Word Search](https://github.com/MoruoFrog/leetcode/blob/master/079__WordSearch.js)| dfs | Medium | :heart: |
+|088|[Merge Sorted Array](https://github.com/MoruoFrog/leetcode/blob/master/088__MergeSortedArray.js)| dfs | Easy | :-1: |
