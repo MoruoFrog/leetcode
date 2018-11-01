@@ -37,3 +37,47 @@ var longestValidParentheses = function(s) {
 
     return result
 };
+
+// dp with cache
+var longestValidParentheses = function(s) {
+    const cache = new Array(s.length).fill(-1)
+
+    // result end with i
+    const dp = i => {
+        if (i < 1) return 0
+        if (s[i] === '(') return 0
+        if(i === 1 && s[0] === '(') return 2
+        if (cache[i] !== -1) return cache[i]
+
+        if (s[i] === '(') {
+            cache[i] = 0
+            return cache[i]
+        }
+
+        if(s[i - 1] === '(') {
+            cache[i] = dp(i - 2) + 2
+            return cache[i]
+        }
+
+        // s[i - 1] === ')'
+        let l = dp(i - 1)
+        if (l === 0) {
+            cache[i] = 0
+            return 0
+        }
+
+        // dp(i - 1) > 0
+        cache[i] = s[i - l - 1] === '('
+            ? l + 2 + dp(i - l - 2)
+            : 0
+
+        return cache[i]
+        
+    }
+
+    let result = 0
+    for(let i = 1; i < s.length; i++) {
+        result = Math.max(dp(i), result)
+    }
+    return result
+}
