@@ -17,3 +17,4 @@
 |063|[Unique Paths II](https://github.com/MoruoFrog/leetcode/blob/master/063__UniquePathsII.js)| dp | Medium |  |
 |079|[Word Search](https://github.com/MoruoFrog/leetcode/blob/master/079__WordSearch.js)| dfs | Medium | :heart: |
 |088|[Merge Sorted Array](https://github.com/MoruoFrog/leetcode/blob/master/088__MergeSortedArray.js)| dfs | Easy | :-1: |
+|032|[Longest Valid Parentheses](https://github.com/MoruoFrog/leetcode/blob/master/088_LongestValidParentheses.js)|  | Hard | :heart: :pushpin: |
