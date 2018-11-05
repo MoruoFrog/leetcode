@@ -20,4 +20,5 @@
 |032|[Longest Valid Parentheses](https://github.com/MoruoFrog/leetcode/blob/master/088_LongestValidParentheses.js)|  | Hard | :heart: :pushpin: |
 |009|[Palindrome Number](https://github.com/MoruoFrog/leetcode/blob/master/009__PalindromeNumber.js)| 进制转换 | Easy | |
 |010|[Regular Expression Matching](https://github.com/MoruoFrog/leetcode/blob/master/010__RegularExpressionMatching.js)| dp | Hard | :heart: :pushpin: |
-|011|[Container With Most Water](https://github.com/MoruoFrog/leetcode/blob/011__ContainerWithMostWater.js)| Two Pointers | Medium |  |
+|011|[Container With Most Water](https://github.com/MoruoFrog/leetcode/blob/master/011__ContainerWithMostWater.js)| Two Pointers | Medium | :heart: |
+|007|[Reverse Integer](https://github.com/MoruoFrog/leetcode/blob/master/007__ReverseInteger.js)|  | Easy |  |
