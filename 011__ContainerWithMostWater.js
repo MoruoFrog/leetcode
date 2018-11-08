@@ -12,9 +12,7 @@ var maxArea = function(height) {
         const top = height[i]
         const tail = height[j]
         result = Math.max(result, Math.min(top, tail) * (j - i))
-        
-        const nextTop = height[i+1]
-        const nextTail = height[j - 1]
+
         // if move the taller side, the result must decrease，so no need to do that
         if(tail >= top) {
             i++
