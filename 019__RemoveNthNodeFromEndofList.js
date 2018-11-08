@@ -13,22 +13,22 @@
 
 // use cache
 var removeNthFromEnd = function(head, n) {
-  const cache = []
-  const origin = head
+    const cache = []
+    const origin = head
 
-  while(head.next !== null) {
+    while(head.next !== null) {
+        cache.push(head)
+        head = head.next
+    }
+
     cache.push(head)
-    head = head.next
-  }
+    const l = cache.length
 
-  cache.push(head)
-  const l = cache.length
+    if (l === n) {
+        return origin.next
+    }
 
-  if (l === n) {
-    return origin.next
-  }
+    cache[l - n - 1].next = cache[l - n + 1]
 
-  cache[l - n - 1].next = cache[l - n + 1]
-
-  return origin
+    return origin
 };
