@@ -25,3 +25,4 @@
 |019|[Remove Nth Node From End of List](https://github.com/MoruoFrog/leetcode/blob/master/019__RemoveNthNodeFromEndofList.js)| link-list | Medium |  |
 |238|[Product of Array Except Self](https://github.com/MoruoFrog/leetcode/blob/master/238__ProductofArrayExceptSelf.js)|  | Medium | :heart: |
 |134|[Gas Station](https://github.com/MoruoFrog/leetcode/blob/master/134__GasStation.js)| Greedy | Medium | :heart: |
+|020|[Valid Parentheses](https://github.com/MoruoFrog/leetcode/blob/master/020__ValidParentheses.js)|  | Easy | :heart: |
