@@ -26,3 +26,4 @@
 |238|[Product of Array Except Self](https://github.com/MoruoFrog/leetcode/blob/master/238__ProductofArrayExceptSelf.js)|  | Medium | :heart: |
 |134|[Gas Station](https://github.com/MoruoFrog/leetcode/blob/master/134__GasStation.js)| Greedy | Medium | :heart: |
 |020|[Valid Parentheses](https://github.com/MoruoFrog/leetcode/blob/master/020__ValidParentheses.js)|  | Easy | :heart: |
+|442|[Find All Duplicates in an Array](https://github.com/MoruoFrog/leetcode/blob/master/442__FindAllDuplicatesInAnArray.js)| bitmap-like | Medium | |
