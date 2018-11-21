@@ -6,41 +6,40 @@
  */
 
 // O(n), S(n) solution, use map
-var findDuplicates = function(nums) {
-  const map = {}
-  const len = nums.length
-  let i = len
-  let result = []
-  
-  while(i >= 0) {
-    let value = nums[i]
-    if (map[value]) {
-      result.push(value)
-    } else {
-      map[value] = 1
+var findDuplicates = function (nums) {
+    const map = {}
+    const len = nums.length
+    let i = len
+    let result = []
+
+    while (i >= 0) {
+        let value = nums[i]
+        if (map[value]) {
+            result.push(value)
+        } else {
+            map[value] = 1
+        }
+        i--
     }
-    i --
-  }
-  return result
+    return result
 };
 
 // O(n), S(1)
-var findDuplicates = function(nums) {
-  const result = []
+var findDuplicates = function (nums) {
+    const result = []
 
-  for(let i = 0; i < nums.length - 1; i++) {
-    const num = nums[i]
-    if (!num) continue
-    if (nums[num] === 0) {
-      result.push(num)
-    } else {
-      let temp = nums[num]
-      nums[num] = 0
-      nums[i] = temp
-      i--
+    for (let i = 0; i < nums.length - 1; i++) {
+        const num = nums[i]
+        if (!num) continue
+        if (nums[num] === 0) {
+            result.push(num)
+        } else {
+            let temp = nums[num]
+            nums[num] = 0
+            nums[i] = temp
+            i--
+        }
     }
-    console.log(i)
-  }
 
-  return result
+    return result
 };

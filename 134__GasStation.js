@@ -9,28 +9,28 @@
  * 从正收益的站开始出发（从gas缺的最多的站的下一站开始）
  * 维护最大负收益
  */
-var canCompleteCircuit = function(gas, cost) {
-  const l = gas.length
-  let min = [0, -1]
-  let totalGas = 0
-  let totalCost = 0
+var canCompleteCircuit = function (gas, cost) {
+    const l = gas.length
+    let min = [0, -1]
+    let totalGas = 0
+    let totalCost = 0
 
-  gas[-1] = 0
-  for(let i = 0; i < l; i++) {
-    totalGas += gas[i]
-    totalCost += cost[i]
+    gas[-1] = 0
+    for (let i = 0; i < l; i++) {
+        totalGas += gas[i]
+        totalCost += cost[i]
 
-    const gasNeed = gas[i] - cost[i]
-    gas[i] = gasNeed + gas[i - 1]
+        const gasNeed = gas[i] - cost[i]
+        gas[i] = gasNeed + gas[i - 1]
 
-    if (gas[i] < min[0]) {
-      min = [gas[i], i]
+        if (gas[i] < min[0]) {
+            min = [gas[i], i]
+        }
     }
-  }
 
-  if (totalGas >= totalCost) {
-    return min[1] + 1 >= l ? 0 : min[1] + 1
-  }
+    if (totalGas >= totalCost) {
+        return min[1] + 1 >= l ? 0 : min[1] + 1
+    }
 
-  return -1
+    return -1
 };
