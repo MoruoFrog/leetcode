@@ -28,3 +28,4 @@
 |020|[Valid Parentheses](https://github.com/MoruoFrog/leetcode/blob/master/020__ValidParentheses.js)|  | Easy | :heart: |
 |442|[Find All Duplicates in an Array](https://github.com/MoruoFrog/leetcode/blob/master/442__FindAllDuplicatesInAnArray.js)| bitmap-like | Medium | |
 |215|[Kth Largest Element in an Array](https://github.com/MoruoFrog/leetcode/blob/master/215__KthLargestElementInAnArray.js)| top-k | Medium | :heart: :pushpin: |
+|083|[Remove Duplicates from Sorted List](https://github.com/MoruoFrog/leetcode/blob/master/083__RemoveDuplicatesFromSortedList.js)| | Easy | |
