@@ -30,3 +30,4 @@
 |215|[Kth Largest Element in an Array](https://github.com/MoruoFrog/leetcode/blob/master/215__KthLargestElementInAnArray.js)| top-k | Medium | :heart: :pushpin: |
 |083|[Remove Duplicates from Sorted List](https://github.com/MoruoFrog/leetcode/blob/master/083__RemoveDuplicatesFromSortedList.js)| | Easy | |
 |021|[Merge Two Sorted Lists](https://github.com/MoruoFrog/leetcode/blob/master/021__MergeTwoSortedLists.js)|link-list | Easy | |
+|495|[Teemo Attacking](https://github.com/MoruoFrog/leetcode/blob/master/495__TeemoAttacking.js)| | Medium | :-1: |
