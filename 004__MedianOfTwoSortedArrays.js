@@ -16,8 +16,12 @@ var findMedianSortedArrays = function(nums1, nums2) {
     let i = 0,
         j = 0,
         arr = []
-    
-    while(i < lenA && j < lenB && i + j <= target) {
+
+    // 添加哨兵
+    nums1.push(Number.MAX_VALUE)
+    nums2.push(Number.MAX_VALUE)
+
+    while(i + j <= target) {
         if (nums1[i] < nums2[j]) {
             arr.push(nums1[i])
             i++
@@ -27,29 +31,7 @@ var findMedianSortedArrays = function(nums1, nums2) {
         }
     }
 
-    if (i + j > target) {
-        return totalLength % 2 === 1
-            ? arr[target]
-            : (arr[target] + arr[target - 1]) / 2
-    }
-    if (i === lenA) {
-        if (totalLength % 2 === 1) {
-            return nums2[target - lenA]
-        }
-        const targetA = nums2[target - arr.length + j]
-        const targetB = arr.length === target
-            ? arr[arr.length - 1]
-            : nums2[target - lenA - 1]
-        return (targetA + targetB) / 2
-    }
-    if (j === lenB) {
-        if (totalLength % 2 === 1) {
-            return nums1[target - lenB]
-        }
-        const targetA = nums1[target - arr.length + i]
-        const targetB = arr.length === target
-            ? arr[arr.length - 1]
-            : nums1[target - lenB - 1]
-        return (targetA + targetB) / 2
-    }
+    return totalLength % 2 === 1
+        ? arr[target]
+        : (arr[target] + arr[target - 1]) / 2
 };
