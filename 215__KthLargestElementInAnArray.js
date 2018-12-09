@@ -101,3 +101,48 @@ var findKthLargest = function (nums, k) {
 
     return quickSelect(nums, 0, nums.length - 1)
 }
+
+// 小顶堆
+const adjHeap = (arr, i) => {
+    if (i >= Math.floor(arr.length / 2)) return
+
+    if (arr[i] > left(arr, i)) {
+        swap(arr, i, i * 2 + 1)
+    }
+    if (arr[i] > right(arr, i)) {
+        swap(arr, i, i * 2 + 2)
+    }
+
+    adjHeap(arr, i * 2 + 1)
+    adjHeap(arr, i * 2 + 2)
+}
+
+const left = (arr, i) => arr[i * 2 + 1] === undefined ? Number.MAX_VALUE : arr[i * 2 + 1]
+const right = (arr, i) => arr[i * 2 + 1 + 1] === undefined ? Number.MAX_VALUE : arr[i * 2 + 1 + 1]
+const swap = (arr, i, j) => {
+    const temp = arr[i]
+    arr[i] = arr[j]
+    arr[j] = temp
+}
+
+const buildHeap = arr => {
+    let i = Math.floor(arr.length / 2) - 1
+    while(i >= 0) {
+        adjHeap(arr, i)
+        i--
+    }
+}
+
+var findKthLargest = function (nums, k) {
+    const heap = nums.slice(0, k)
+
+    buildHeap(heap)
+
+    for(let i = k; i < nums.length; i++) {
+        if (arr[i] > heap[0]) {
+            heap[0] = arr[i]
+            adjHeap(heap, 0)
+        }
+    }
+    return heap[0]
+}
