@@ -32,3 +32,4 @@
 |021|[Merge Two Sorted Lists](https://github.com/MoruoFrog/leetcode/blob/master/021__MergeTwoSortedLists.js)|link-list | Easy | |
 |495|[Teemo Attacking](https://github.com/MoruoFrog/leetcode/blob/master/495__TeemoAttacking.js)| | Medium | :-1: |
 |094|[Binary Tree Inorder Traversal](https://github.com/MoruoFrog/leetcode/blob/master/094__BinaryTreeInorderTraversal.js)| | Medium | :heart: |
+|023|[Merge k Sorted Lists](https://github.com/MoruoFrog/leetcode/blob/master/023__MergekSortedLists.js)| | Hard | :heart: :pushpin: |
