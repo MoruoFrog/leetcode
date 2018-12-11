@@ -31,3 +31,4 @@
 |083|[Remove Duplicates from Sorted List](https://github.com/MoruoFrog/leetcode/blob/master/083__RemoveDuplicatesFromSortedList.js)| | Easy | |
 |021|[Merge Two Sorted Lists](https://github.com/MoruoFrog/leetcode/blob/master/021__MergeTwoSortedLists.js)|link-list | Easy | |
 |495|[Teemo Attacking](https://github.com/MoruoFrog/leetcode/blob/master/495__TeemoAttacking.js)| | Medium | :-1: |
+|094|[Binary Tree Inorder Traversal](https://github.com/MoruoFrog/leetcode/blob/master/094__BinaryTreeInorderTraversal.js)| | Medium | :heart: |
