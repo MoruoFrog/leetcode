@@ -33,3 +33,4 @@
 |495|[Teemo Attacking](https://github.com/MoruoFrog/leetcode/blob/master/495__TeemoAttacking.js)| | Medium | :-1: |
 |094|[Binary Tree Inorder Traversal](https://github.com/MoruoFrog/leetcode/blob/master/094__BinaryTreeInorderTraversal.js)| | Medium | :heart: |
 |023|[Merge k Sorted Lists](https://github.com/MoruoFrog/leetcode/blob/master/023__MergekSortedLists.js)| | Hard | :heart: :pushpin: |
+|024|[Swap Nodes in Pairs](https://github.com/MoruoFrog/leetcode/blob/master/024__SwapNodesinPairs.js)| link-list | Medium | |
