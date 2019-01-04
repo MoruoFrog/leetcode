@@ -34,3 +34,4 @@
 |094|[Binary Tree Inorder Traversal](https://github.com/MoruoFrog/leetcode/blob/master/Solution/094__BinaryTreeInorderTraversal.js)| | Medium | :heart: |
 |023|[Merge k Sorted Lists](https://github.com/MoruoFrog/leetcode/blob/master/Solution/023__MergekSortedLists.js)| | Hard | :heart: :pushpin: |
 |024|[Swap Nodes in Pairs](https://github.com/MoruoFrog/leetcode/blob/master/Solution/024__SwapNodesinPairs.js)| link-list | Medium | |
+|206|[Reverse Linked List](https://github.com/MoruoFrog/leetcode/blob/master/Solution/206__ReverseLinkedList.js)| link-list | Easy | :heart: |
