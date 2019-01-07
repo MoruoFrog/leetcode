@@ -35,3 +35,4 @@
 |023|[Merge k Sorted Lists](https://github.com/MoruoFrog/leetcode/blob/master/Solution/023__MergekSortedLists.js)| | Hard | :heart: :pushpin: |
 |024|[Swap Nodes in Pairs](https://github.com/MoruoFrog/leetcode/blob/master/Solution/024__SwapNodesinPairs.js)| link-list | Medium | |
 |206|[Reverse Linked List](https://github.com/MoruoFrog/leetcode/blob/master/Solution/206__ReverseLinkedList.js)| link-list | Easy | :heart: |
+|025|[Reverse Nodes in k-Group](https://github.com/MoruoFrog/leetcode/blob/master/Solution/025__ReverseNodesInk-Group.js)| link-list | Hard |  |
