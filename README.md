@@ -1,3 +1,10 @@
+<!--
+ * @Description: In User Settings Edit
+ * @Author: your name
+ * @Date: 2019-07-23 15:20:03
+ * @LastEditTime: 2019-07-23 15:31:11
+ * @LastEditors: Please set LastEditors
+ -->
 # leetcode javascript solution
 
 | # | Title | Remark | Difficulty | |
@@ -36,3 +43,4 @@
 |024|[Swap Nodes in Pairs](https://github.com/MoruoFrog/leetcode/blob/master/Solution/024__SwapNodesinPairs.js)| link-list | Medium | |
 |206|[Reverse Linked List](https://github.com/MoruoFrog/leetcode/blob/master/Solution/206__ReverseLinkedList.js)| link-list | Easy | :heart: |
 |025|[Reverse Nodes in k-Group](https://github.com/MoruoFrog/leetcode/blob/master/Solution/025__ReverseNodesInk-Group.js)| link-list | Hard |  |
+|015|[3sum](https://github.com/MoruoFrog/leetcode/blob/master/Solution/015__3sum.js)| 2 way pointer | Medium | :heart: |
